@@ -34,6 +34,6 @@ Worked on backend features and API integrations in a fast-paced environment.
 ## 🤝 Let’s connect
 - LinkedIn: https://www.linkedin.com/in/gloria-ogbodo  
 - Email: glorious27@gmail.com  
-
+- Resume link - boisterous-alfajores-f1d267.netlify.app
 
 I’m open to internships, junior backend roles, and collaboration.
