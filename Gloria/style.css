@@ -1,0 +1,92 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  background: linear-gradient(135deg, #0a192f, #112240);
+  color: #e6edf3;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 2rem 1.2rem;
+}
+
+header {
+  margin-bottom: 2rem;
+}
+
+header h1 {
+  font-size: 2.3rem;
+  font-weight: 600;
+}
+
+header p {
+  margin-top: 0.4rem;
+  opacity: 0.85;
+}
+
+a {
+  color: #64ffda;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid rgba(255,255,255,0.08);
+}
+
+h2 {
+  font-size: 1.3rem;
+  margin-bottom: 0.8rem;
+  color: #ccd6f6;
+}
+
+.projects {
+  display: grid;
+  gap: 1rem;
+}
+
+.project {
+  padding: 1rem;
+  border-radius: 10px;
+  background: rgba(255,255,255,0.03);
+  transition: 0.2s ease;
+}
+
+.project:hover {
+  background: rgba(255,255,255,0.07);
+}
+
+.skills span {
+  display: inline-block;
+  background: rgba(255,255,255,0.08);
+  padding: 6px 10px;
+  border-radius: 15px;
+  margin: 4px 4px 0 0;
+  font-size: 0.85rem;
+}
+
+footer {
+  margin-top: 2rem;
+  font-size: 0.85rem;
+  opacity: 0.6;
+}
+
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 1.8rem;
+  }
+}
